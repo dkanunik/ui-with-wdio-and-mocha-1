@@ -1,0 +1,153 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true,
+    "commonjs": true,
+    "mocha": true
+  },
+  "extends": "eslint:recommended",
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaVersion": 8
+  },
+  "rules": {
+    "indent": [
+      "error",
+      4
+    ],
+    "linebreak-style": [
+      "error",
+      "unix"
+    ],
+    "quotes": [
+      "error",
+      "single"
+    ],
+    "semi": [
+      "error",
+      "always"
+    ],
+    "arrow-body-style": [
+      "error",
+      "always"
+    ],
+    "no-useless-return": [
+      "error"
+    ],
+    "arrow-parens": [
+      "error",
+      "always"
+    ],
+    "no-func-assign": [
+      "error"
+    ],
+    "no-useless-concat": [
+      "error"
+    ],
+    "nonblock-statement-body-position": [
+      "error"
+    ],
+    "no-array-constructor": [
+      "error"
+    ],
+    "array-callback-return": [
+      "error"
+    ],
+    "prefer-destructuring": [
+      "error"
+    ],
+    "no-new-object": [
+      "error"
+    ],
+    "prefer-template": [
+      "error"
+    ],
+    "func-style": [
+      "error",
+      "declaration",
+      {
+        "allowArrowFunctions": true
+      }
+    ],
+    "object-shorthand": [
+      "error",
+      "always"
+    ],
+    "quote-props": [
+      "error",
+      "as-needed"
+    ],
+    "no-loop-func": [
+      "error"
+    ],
+    "prefer-rest-params": [
+      "error"
+    ],
+    "no-new-func": [
+      "error"
+    ],
+    "prefer-spread": [
+      "error"
+    ],
+    "prefer-const": [
+      "error",
+      {
+        "destructuring": "any",
+        "ignoreReadBeforeAssign": false
+      }
+    ],
+    "template-curly-spacing": [
+      "error",
+      "never"
+    ],
+    "space-before-blocks": [
+      "error",
+      {
+        "functions": "always",
+        "keywords": "always",
+        "classes": "always"
+      }
+    ],
+    "space-before-function-paren": [
+      "error",
+      {
+        "anonymous": "always",
+        "named": "never",
+        "asyncArrow": "never"
+      }
+    ],
+    "no-param-reassign": [
+      "error",
+      {
+        "props": true
+      }
+    ],
+    "function-paren-newline": [
+      "error",
+      "never"
+    ],
+    "eol-last": [
+      "error"
+    ],
+    "no-multiple-empty-lines": [
+      "error",
+      {
+        "max": 1,
+        "maxEOF": 1
+      }
+    ]
+  },
+  "globals": {
+    "angular": false,
+    "module": false,
+    "inject": false,
+    "describe": false,
+    "it": false,
+    "$": false,
+    "$$": false,
+    "browser": false,
+    "before": false,
+    "expect": false
+  }
+}

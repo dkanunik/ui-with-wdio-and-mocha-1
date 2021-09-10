@@ -1,0 +1,31 @@
+{
+  "name": "ui-with-wdio-and-mocha",
+  "version": "1.0.0",
+  "author": "",
+  "description": "ui-with-wdio-and-mocha",
+  "license": "MIT",
+  "main": "./node_modules/.bin/wdio",
+  "keywords": [
+    "webdriver",
+    "test"
+  ],
+  "scripts": {
+    "test": "wdio run ./configs/wdio.conf.js"
+  },
+  "dependencies": {
+    "@wdio/cli": "7.12.0",
+    "@wdio/mocha-framework": "7.12.0",
+    "@wdio/local-runner": "7.12.0",
+    "@wdio/sauce-service": "7.12.0",
+    "@wdio/devtools-service": "7.12.0",
+    "@wdio/selenium-standalone-service": "7.10.1",
+    "@wdio/spec-reporter": "7.10.1",
+    "app-root-path": "^3.0.0",
+    "chromedriver": "^93.0.1",
+    "eslint": "^7.2.0",
+    "expect": "^27.1.0",
+    "expect-webdriverio": "^3.1.2",
+    "wdio-chromedriver-service": "7.2.0",
+    "webdriverio": "7.12.0"
+  }
+}
